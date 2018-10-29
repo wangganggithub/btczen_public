@@ -20,7 +20,10 @@ public class BitcoinInterface {
         CHANGE_PASSWORD(4),
         CREATE_HDWALLET(5),
         DELETE_HDWALLET(6),
-        DELETE_SENTENCES(7);
+        DELETE_SENTENCES(7),
+        SIGN_ELASTOS(8),
+        SIGN_HASH_CURVE_ID(9),
+        NO_OPERATION(-1);
 
         private int intValue;
         BtczenOperations(int intValue) {
